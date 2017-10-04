@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Almendra+SC);
+@import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+body{
+ background-color: #EEEEEE;
+
+}
+
+/* Formatação do Menu*/
+
+nav#menu {
+    display: block;
+}
+p{
+	text-align: justify;
+	text-indent: 50px;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 119px;
+    font-size: 11pt;
+}
+
+nav#menu li {
+    display: inline-table;	
+    background-color: #eeeeee;
+    padding: 2px;
+    margin: 2px;
+    transition: background-color 2s;
+    font-family: 'Finger Paint', cursive;
+    font-size: 10pt;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+
+nav#menu h1 {
+    display: none;
+}
+
+nav#menu a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#minhaDiv {
+    background: -webkit-gradient(linear, left top, right top, from(#d9343a), to(#222223)) no-repeat;
+    background: -moz-linear-gradient(left, #f60606, #000000);
+    filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=1, StartColorStr='#CCCCCC', EndColorStr='#000000');
+    Read more: http : / / www . linhadecodigo . com . br /artigo/ 3603 / css3-gradient-criando-planos-de-fundo-com-efeito-degrade . aspx #ixzz3sBVVqZgS
+}
+table#tabela{
+	border: 5px solid #DF1717;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+#form{
+	padding-right: 200px;
+	padding-left: 200px;
+	padding-bottom: 10px;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 10pt;
+}
+#form h3{
+	font-family: 'Almendra SC', serif;
+	font-size: 13pt;
+
+}
+#form h2{
+	font-family: 'Libre Baskerville', serif; 
+	font-size:  10pt;
+}
+footer#rodape{
+	clear: both;
+	border-top:3px solid #606060;
+	padding: 1px;
+	
+	
+}
+footer#rodape p{
+	text-align: center;
+}
+div#pase marquee{
+		font-family: 'Fredericka the Great', cursive;
+		font-size: 30pt;
+		font-style: italic;
+		color: #FFFFFF;
+		text-shadow: 4px 4px 4px #0000DD;
+}
+div#vend h2{
+	font-family: 'Finger Paint', cursive;
+}
+div#vend p{
+	font-family: 'Audiowide', cursive;
+}

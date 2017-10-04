@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+	<style>
+		footer{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		}	
+	</style>
+<body>
+<div id="minhaDiv" style="height: auto; width:auto">
+<div id="interface">
+
+    <img src="_imagens/logotipo.gif" width="150"/>
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li><a href="home.html">Home</a></li>
+           	<li><a href="peri.html">Periféricos</a></li>
+            <li><a href="not.html">Notbooks</a></li>
+            <li><a href="acessorios.html">acessórios</a></li>
+            <li><a href="cartuchos.html">Cartuchos</a></li>
+            <li><a href="impre.html">Impressoras </a></li>
+            <li><a href="assistencia.html">Assistência técnica</a></li>
+            <li><a href="falec.html">Fale conosco</a></li>
+            <li><a href="Quem-somos.html">Institucional </a></li>
+        </ul>
+    </nav>	
+</div>
+</div>
+<br/><br/>
+<div id="pase">
+		<marquee bgcolor= #180000>C&SPEED Informática | Unindo forças por você !!!</marquee>
+	</div>
+	<div id="form">
+	<br/>
+	<table id="tabela">
+		<td>
+			<img src="_imagens/2.jpg">
+		</td>
+		<td>
+     		<h3>Fale conosco:</h3><br/>
+			<h2>Fone: 64|3674 4090</h2>
+			<h2>End: Rua Esmerindo Pereira Nº 762</h2>
+			<h2>Centro| Iporá| Goiás</h2>
+			<h2> CEP: 76200-000</h2>
+			<h2>Email: speedcompras@hotmail.com.br</h2>
+		</td>
+	</table>
+	</div>
+	<object width="425" height="350"> 
+	<param name="movie" value="http://www.youtube.com/watch?v=YRbIrluv-3Y" />
+	 <embed src="http://www.youtube.com/watch?v=YRbIrluv-3Y" type="application/x-shockwave-flash">
+
+<footer id="rodape">
+	<p>Copyright &copy; 2015 - by <a href= "W.V.S Software.html" target="blank">W.V.S Software</a></p><br/>
+</footer>
+</body>
+</html>

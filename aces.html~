@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>C&SPEED</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+<body>
+<div id="minhaDiv" style="height: auto; width:auto">
+<div id="interface">
+
+    <img src="_imagens/logotipo.gif" width="150"/>
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li><a href="cspeed-informarica.html">Home</a></li>
+            <li><a href="_imagens/moldem-roteador.jpg">Periféricos</a></li>
+            <li><a href="_imagens/notbook.jpg">Notbooks</a></li>
+            <li>acessórios</li>
+            <li>Cartuchos</li>
+            <li>Impressoras</li>
+            <li>Assistência técnica</li>
+            <li>Fale conosco</li>
+            <li><a href="Quem-somos.html">Institucional </a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+</div>
+<footer id="rodape">
+	<p>Copyright &copy; 2015 - by <a href= "W.V.S Software.html" target="blank">W.V.S Software</a></p><br/>
+</footer>
+</body>
+</html>

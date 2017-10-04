@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Acessórios</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+	<style>
+		table{
+			border: 5px solid #DF1717;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			border-spacing: 0;
+			box-shadow: 4px 4px 8px black;
+		}	
+		td{
+			border-left: 3px solid black;
+			border-spacing: 0;
+			padding: 11px;	
+		}
+	</style>
+<body >
+</object>
+<div id="minhaDiv" style="height: auto; width:auto">
+<div id="interface">
+
+    <img src="_imagens/logotipo.gif" width="150"/>
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li><a href="home.html">Home</a></li>
+           	<li><a href="peri.html">Periféricos</a></li>
+            <li><a href="not.html">Notbooks</a></li>
+            <li><a href="acessorios.html">acessórios</a></li>
+            <li><a href="cartuchos.html">Cartuchos</a></li>
+            <li><a href="impre.html">Impressoras </a></li>
+            <li><a href="assistencia.html">Assistência técnica</a></li>
+            <li><a href="falec.html">Fale conosco</a></li>
+            <li><a href="Quem-somos.html">Institucional </a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+<br/>
+<br/>
+	<div id="pase">
+		<marquee bgcolor= #180000>Acessórios</marquee>
+	</div>	
+	<div id="vend">
+	<br/>
+	<table>
+			<td align= "center">
+			<img src="_imagens/pendriver-scandisk.png" width="60" height="125" />
+			<p>Pen Drive 8GB <br/> Sandisk</p>
+			<h2>R$ 29,00</h2>
+			<br/>
+			<img src="_imagens/headphone-c3tech.png" width="60" height="125" />
+			<p>Fone Ouvido <br/>C3 Tech</p>	
+			<h2>R$ 49,00</h2>
+		
+			<br/>
+			<img src="_imagens/hdmi.png" width="60" height="125"/>
+			<p>Cabo HDMI <br/>Multilaser</p>	
+			<h2>R$ 25,00</h2>
+			
+
+			</td>
+			<td align= "center">
+			
+			<img src="_imagens/cooler.png" width="60" height="125">
+			<p>Cooler interno <br/>Multilaser</p>
+			<h2>R$ 15,00</h2>
+			<br/>
+			<img src="_imagens/estabilizador-sms.png" width="60" height="125"/>
+			<p>Estabilizador <br/> SMS</p>
+			<h2>R$ 109,00</h2>
+		
+			<br/>
+			<img src="_imagens/dvd-multilazer.png" width="60" height="125"/>
+			<p>DVD multilazer <br/>(unid)</p>
+			<h2>R$ 1,00 </h2>
+		
+			</td>
+			<td align= "center">
+			
+			<img src="_imagens/teclado.png"  width="60" height="125"/>
+			<p>Teclado Multilaser</p>	
+			<h2>R$ 25,00</h2>
+	
+			<br/>
+			<img src="_imagens/mouse-usb-e-ps2.png"  width="60" height="125"/>
+			<p>Mouse USB <br/>Multilaser</p>	
+			<h2>R$ 15,00</h2>
+		
+			<br/>
+			<img src="_imagens/caixa%20de%20som.png" width="60" height="125"/>
+			<p>Caixa de som 1w <br/> Multilaser</p>
+			<h2>R$ 25,00</h2>
+	
+			</td>
+			<td align= "center">
+			
+			<img src="_imagens/nobreak-sms.png" width="60" height="125"/>
+			<p>Nobreak 700w <br/>SMS</p>
+			<h2>R$ 299,00</h2>
+		
+			<br/>
+			<img src="_imagens/toner.png" width="60" height="125"/>
+			<p>Toner-HP <br/> Multilaser</p>
+			<h2>R$ 25,00</h2>
+		
+			<br/>
+			<img src="_imagens/moldem-roteador.png" width="60" height="125"/>
+			<p>Moldem Roteador <br/>TP-LINK</p>
+			<h2>R$ 200,00</h2>
+		
+			</td>			
+	
+	</table>
+	</div>
+<footer id="rodape">
+	<p>Copyright &copy; 2015 - by <a href= "W.V.S Software.html" target="blank">W.V.S Software</a></p><br/>
+</footer>
+</body>
+</html>

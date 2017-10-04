@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartuchos</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+	<style>
+		table{
+			border: 5px solid #DF1717;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 10px;
+			border-spacing: 0;
+			box-shadow: 4px 4px 8px black;
+		}	
+		td{
+			border-left: 3px solid black;
+			border-spacing: 0;
+			padding: 11px;	
+		}
+	</style>
+<body>
+</object>
+<div id="minhaDiv" style="height: auto; width:auto">
+<div id="interface">
+
+    <img src="_imagens/logotipo.gif" width="150"/>
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li><a href="home.html">Home</a></li>
+           	<li><a href="peri.html">Periféricos</a></li>
+            <li><a href="not.html">Notbooks</a></li>
+            <li><a href="acessorios.html">acessórios</a></li>
+            <li><a href="cartuchos.html">Cartuchos</a></li>
+            <li><a href="impre.html">Impressoras </a></li>
+            <li><a href="assistencia.html">Assistência técnica</a></li>
+            <li><a href="falec.html">Fale conosco</a></li>
+            <li><a href="Quem-somos.html">Institucional </a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+<br/>
+<br/>
+	<div id="pase">
+		<marquee bgcolor= #180000>Cartuchos</marquee>
+	</div>	
+	<div id="vend">
+	<br/>
+	<table>
+		<td align= "center">
+			<img src="_imagens/cartucho-60.png" width="60" height="125" />
+			<p>Cartucho HP 60</p>
+			<h2>R$ 79,00</h2>
+	
+			<br/>
+			<img src="_imagens/cartucho-74.png" width="60" height="125" />
+			<p>Cartucho HP 74</p>	
+			<h2>R$ 69,00</h2>
+		</td>
+		<td align= "center">
+			<img src="_imagens/cartucho-122.png" width="60" height="125"/>
+			<p>Cartucho HP 122</p>	
+			<h2>R$ 55,00</h2>
+	
+			<br/>
+			<img src="_imagens/cartucho-662.png"  width="60" height="125"/>
+			<p>Cartucho HP 662</p>	
+			<h2>R$ 39,00</h2>
+		</td>
+		<td align= "center">
+			<img src="_imagens/cartucho-22.png"  width="60" height="125"/>
+			<p>Cartucho HP 22xl</p>	
+			<h2>R$ 89,00</h2>
+		
+			<br/>
+			<img src="_imagens/cartucho-674.png"  width="60" height="125"/>
+			<p>Cartucho HP 670</p>	
+			<h2>R$ 39,00</h2>
+		</td>
+	</table>
+	</div>
+<footer id="rodape">
+	<p>Copyright &copy; 2015 - by <a href= "W.V.S Software.html" target="blank">W.V.S Software</a></p><br/>
+</footer>
+</body>
+</html>

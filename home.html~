@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>C&SPEED</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+    <script>
+		maximize() {  
+  		moveTo(-4,-4);  
+  		resizeTo(screen.availWidth + 8, screen.availHeight + 8);  
+		}  
+	</script>
+</head>
+<body  onLoad="maximize()">
+<div id="minhaDiv" style="height: auto; width:auto">
+<div id="interface">
+
+    <img src="_imagens/logotipo.gif" width="150"/>
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li><a href="home.html">Home</a></li>
+           	<li><a href="peri.html">Periféricos</a></li>
+            <li><a href="not.html">Notbooks</a></li>
+            <li><a href="acessorios.html">acessórios</a></li>
+            <li><a href="cartuchos.html">Cartuchos</a></li>
+            <li><a href="impre.html">Impressoras </a></li>
+            <li><a href="assistencia.html">Assistência técnica</a></li>
+            <li><a href="falec.html">Fale conosco</a></li>
+            <li><a href="Quem-somos.html">Institucional </a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+<br/>
+<br/>
+<div id="pase">
+	<marquee  bgcolor= #180000>Venha nos conhecer!!!</marquee>
+	</div>
+<br/>
+<div id="galeria">
+<div id="galeria-base">
+    <img src="_fotos-loja/1.jpg" id="imgmostrar">
+</div>
+<div id="galeria-miniaturas">
+    <img class="miniatura" src="_fotos-loja/1.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/1.jpg';"></img>
+    <img class="miniatura" src="_fotos-loja/2.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/2.jpg';"></img>
+    <img class="miniatura" src="_fotos-loja/3.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/3.jpg';"></img>
+    <img class="miniatura" src="_fotos-loja/4.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/4.jpg';"></img>
+    <img class="miniatura" src="_fotos-loja/5.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/5.jpg';"></img>
+	<img class="miniatura" src="_fotos-loja/6.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/6.jpg';"></img>
+	<img class="miniatura" src="_fotos-loja/7.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/7.jpg';"></img>
+	<img class="miniatura" src="_fotos-loja/8.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/8.jpg';"></img>
+   <img class="miniatura" src="_fotos-loja/9.jpg"
+         onclick="document.getElementById('imgmostrar').src='_fotos-loja/9.jpg';"></img>
+
+
+</div>
+
+
+</div>
+<embed src="dingo.mp3">
+</div>
+<footer id="rodape">
+	<p>Copyright &copy; 2015 - by <a href= "W.V.S Software.html" target="blank">W.V.S Software</a></p><br/>
+</footer>
+</body>
+</html>

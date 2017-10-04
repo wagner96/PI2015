@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Assistência Técnica</title>
+    <link rel="stylesheet" href="_css/estilo.css">
+</head>
+	<style>
+			table{
+				border: 5px solid #DF1717;
+				margin-left: auto;
+				margin-right: auto;
+				padding: 10px;
+				border-spacing: 0;
+				box-shadow: 4px 4px 8px black;
+			}	
+			td{
+				border-left: 3px solid black;
+					border-spacing: 0;
+			padding: 11px;	
+			}
+	</style>
+	<script language="javascript">
+			<!--
+			function aumenta(obj){
+					obj.height=obj.height*2;
+					obj.width=obj.width*2;
+			}
+ 
+			function diminui(obj){
+					obj.height=obj.height/2;
+					obj.width=obj.width/2;
+		}
+			//-->
+	</script>
+<body >
+<body>
+<div id="minhaDiv" style="height: auto; width:auto">
+<div id="interface">
+
+    <img src="_imagens/logotipo.gif" width="150"/>
+    <nav id="menu">
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li><a href="home.html">Home</a></li>
+           	<li><a href="peri.html">Periféricos</a></li>
+            <li><a href="not.html">Notbooks</a></li>
+            <li><a href="acessorios.html">acessórios</a></li>
+            <li><a href="cartuchos.html">Cartuchos</a></li>
+            <li><a href="impre.html">Impressoras </a></li>
+            <li><a href="assistencia.html">Assistência técnica</a></li>
+            <li><a href="falec.html">Fale conosco</a></li>
+            <li><a href="Quem-somos.html">Institucional </a></li>
+        </ul>
+    </nav>
+
+</div>
+</div>
+<br/>
+<br/>
+	<div id="pase">
+		<marquee bgcolor= #180000 scrollamount="20">Assistência Técnica</marquee>
+	</div>	
+	<div id="vend">
+	<br/>
+	<table>
+		<td align= "center">
+			<img src="_imagens/1impre.jpg" width="200" height="200" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"/>
+			<p> Limpeza em Impressoras</p><h2> A partir de R& 80,00 </h2></br>
+		
+			<img src="_imagens/01rec.jpg" width= "200" height="200" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"/>
+			<p>Recarga de cartucho <br/> preto/colorido/toner </p>
+			<h2>R$15,00 | R$20,00 | R$40,00</h2>
+			
+		</td>
+		<td align= "center">
+			<img src="_imagens/01placa.jpg" width="200" height= "200" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"/>		
+			<p>Desoxidação de peças </p>
+			<h2>A partir de R$ 30,00</h2></br>
+		
+			
+			<img src = "_imagens/01placa1.jpg" width= "200" height= "200" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"/>
+			<p>Manutenção em</br>Geral</p>
+			<h2>A partir de R$ 30,00</h2>
+			
+		
+		</td>
+		<td align= "center">
+			<img src="_imagens/1impre1.jpg" width= "200" height="200" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"/>
+			<p>Diagnosticos de Impressoras</p>
+			<h2>A partir de R$ 40,00</h2>
+			
+			
+			<img src="_imagens/1placa2.jpg" width="200" height="200" onMouseOver="aumenta(this)" onMouseOut="diminui(this)"/>
+			<p>Montagens e <br/> diagnósticos</p>
+			<h2>A partir de R$ 40,00</h2>
+			
+		</td>
+	
+	</table>
+	</div>
+	<br/>
+<footer id="rodape">
+	<p>Copyright &copy; 2015 - by <a href= "W.V.S Software.html" target="blank">W.V.S Software</a></p><br/>
+</footer>
+</body>
+</html>
